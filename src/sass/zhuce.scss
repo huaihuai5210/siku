@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+body{
+    background: #fdf8f4;
+}
+a{
+    display: block;
+    color:#ccc;
+    text-decoration: none;
+}
+.header{
+    width:100%;
+    height:70px;
+    background: #000;
+    .head{
+        width:1200px;
+        margin: 0 auto;
+        .head_you{
+            float: right;
+            .zh{
+                float: left;
+                line-height: 70px;
+                padding:0 10px;
+                a{
+                    font-size:12px;
+                }
+            }
+        }
+    }
+
+}
+.part{
+    height: 780px;
+    padding:30px 0;
+    .content{
+        width:1200px;
+        margin:0 auto;
+        height:800px;
+        .center{
+            width: 310px;
+            padding: 30px 35px;
+            float: right;
+            background-color: #fff;
+            margin-top: 80px;
+            position: relative;
+            .clearfix{
+                font-size: 14px;
+                .regtips{
+                    width:100%;
+                    font-size:12px;
+                    .t_irght{
+                        width: 60px;
+                        height: 40px;
+                        line-height: 40px;
+                        color: #666;
+                        float: left;
+                    }
+                    
+                    .f3{
+                        width:100px;
+                    }   
+                    .tips{
+                        float: right;
+                        color:#999;
+                        width: 240px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: right;
+                        font-family: microsoft yahei;
+                    }
+                    .pas{
+                        color:red;
+                        display: none;
+                    }                
+                }
+                .regtips_input{
+                    z-index: 2;
+                    position: relative;
+                    float: left;
+                    .reg_in{
+                        width: 298px;
+                        height: 20px;
+                        line-height: 20px;
+                        padding: 10px 5px;
+                        border: 1px solid #dedede;
+                        font-size: 14px;
+                        font-weight: bold;
+                        font-family: 'microsoft yahei';
+                        border-radius: 0;
+                    }
+                    .pas_input{
+                        display:none;
+                    }
+                    .blur{
+                        display: none;
+                        color: red;
+                        font-weight: bold;
+                        width: 240px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: right;
+                        font-family: microsoft yahei;
+                        float: left;
+                    }
+                }
+            }                
+            .submip{
+                padding-top: 10px;
+                .input_sub{
+                    width: 100%;
+                    background-color: #f19108;
+                    border: 0;
+                    cursor: pointer;
+                    font-size: 16px;
+                    color: #fff;
+                    font-weight: bold;
+                    text-align: center;
+                    height:50px;
+                }
+                .check{
+                    width: 100%;
+                    height: 20px;
+                    line-height: 20px;
+                    padding: 5px 0;
+                    color: #999;
+                    font-size:12px;
+                    .check1{
+                        width: 100%;
+                        height: 20px;
+                        line-height: 20px;
+                        padding: 5px 0;
+                        color: #999;
+                        .read{
+                            position: relative;
+                            top: 3px;
+                            margin-right: 2px;
+                            
+                        }
+                    }
+                    a{
+                        color: #999;
+                        display: inline;
+                          
+                    }
+                }
+                .blur1{
+                    display: none;
+                    color: red;
+                    font-weight: bold;
+                    font-size: 14px;
+                    font-family: microsoft yahei;
+                }
+                .msg{
+                    width: 100%;
+                    padding-top: 30px;
+                    span{
+                        color: #999;
+                        float: left;
+                        font-size: 12px;
+                        p{
+                            float:left;
+                        }
+                        a{
+                            float: left;
+                            color: #f19108; 
+                        }
+                    }
+                }
+            }   
+        }
+    }
+}
+.foot{
+    width: 100%;
+    background-color: #f6f6f6;
+    border-top: 1px solid #fff;
+    .ner{
+        margin-top: 70px;
+        padding: 37px 0 66px;
+        background-color: #f5f5f5;
+        .ner_list{
+            height:100%;
+            margin: 0 auto;
+            width: 1200px;
+            .ner_ul{
+                font-size: 14px;
+                height:136px;
+                .ner_zh{
+                    width:34px;
+                    float: left;
+                    width:236px;
+                    line-height: 34px;
+                    font-size: 14px;
+                    a{
+                        color:#000;
+                       
+                    }
+                }
+            } 
+            .ner_top{
+                width:1200px;
+                margin:0 auto;
+                margin-top: 25px;
+                line-height: 36px;
+                
+                .ner_p{
+                    height:36px;
+                    font-size: 14px;
+                    
+                    .ner_sp{
+                        margin-right: 28px;
+                        float: left;
+                        }
+                        a{
+                            width:188px;
+                            left:1px;
+                            font-size:14px;
+                            color:#000;
+                            img{
+                                margin:0;
+                                width:14px;
+                        }
+                    }
+                }
+                .ner_img{
+                    margin-top: 8px;
+                    .base{
+                        float: left;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }          
+    }
+}
